@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 
 ```
-## Task 2 – Statistical Market Basket Analysis
+## Task 2 – Supermarket Analysis
 
 ### Overview
 Task 2 implements a statistical market basket analysis system to identify purchasing patterns from supermarket transaction data.  
