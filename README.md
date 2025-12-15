@@ -33,3 +33,21 @@ The project is implemented entirely in Python and follows a modular design:
 ### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
+
+## Task 2 – Statistical Market Basket Analysis
+
+### Overview
+Task 2 implements a statistical market basket analysis system to identify purchasing patterns from supermarket transaction data.  
+The solution avoids graphical visualisation and machine learning models, focusing instead on explainable statistical metrics.
+
+The system analyses transaction data to compute **support**, **confidence**, and **lift**, which are widely used measures in association analysis and recommendation systems.
+
+
+
+### Methodology
+The analysis follows these steps:
+1. Load and preprocess transaction data from CSV
+2. Group items by customer identifier to form transactions
+3. Compute statistical metrics (support, confidence, lift)
+
+
