@@ -34,6 +34,8 @@ The project is implemented entirely in Python and follows a modular design:
 ```bash
 pip install -r requirements.txt
 
+
+```
 ## Task 2 – Statistical Market Basket Analysis
 
 ### Overview
@@ -44,7 +46,7 @@ The system analyses transaction data to compute **support**, **confidence**, and
 
 
 
-### Methodology
+### Approach
 The analysis follows these steps:
 1. Load and preprocess transaction data from CSV
 2. Group items by customer identifier to form transactions
